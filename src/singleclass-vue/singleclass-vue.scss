@@ -1,0 +1,97 @@
+.basic-class-item {
+    width: 280px;
+    height: 309.3px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255); // 组件上半部分图片的样式
+
+    .basic-class-item-pic {
+        width: 280px;
+        height: 163.3px;
+    }
+    //课程内容部分
+    .basic-class-item-info {
+        width: inherit;
+        height: 146px;
+        display: inline; //课程标签
+
+        .class-title {
+            width: 248px;
+            height: 24px;
+            margin-left: 5.7%;
+            margin-top: 5.2%;
+            text-align: left;
+            font-size: 14px;
+            line-height: 24px;
+            color: #333333;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        //注册人数
+        .register-num {
+            width: 160px;
+            height: 20px;
+            margin-left: 5.7%; //5.7%
+            margin-top: 1.9%;
+            float: left;
+            font-size: 12px;
+            color: #999;
+            letter-spacing: 0;
+            line-height: 20px;
+            // opacity: 0;
+        }
+        //课程评价
+        .class-evaluate {
+            width: 80px;
+            height: 20px;
+            margin-left: 2.9%;
+            margin-top: 1.9%;
+            float: left;
+            text-align: right;
+            font-size: 12px;
+            color: #999999;
+            letter-spacing: 0;
+            line-height: 20px;
+        }
+        //底部小头像
+        .class-head {
+            width: 24px;
+            height: 24px;
+            margin-left: 5.7%;
+            margin-top: 12.9%;
+            float: left;
+        }
+        //底部姓名
+        .class-name {
+            width: 90px;
+            height: 20px;
+            margin-left: 2.9%;
+            margin-top: 13.6%;
+            float: left;
+            font-size: 12px;
+            color: #333333;
+            letter-spacing: 0;
+            line-height: 20px;
+        }
+        //课程价格
+        .class-price {
+            width: 80px;
+            height: 20px;
+            margin-left: 16.4%;
+            margin-top: 13.6%;
+            float: left;
+            text-align: right;
+            font-size: 14px;
+            // color: #02d462;
+            color: #28B28B;
+            letter-spacing: 0;
+            line-height: 20px;
+            float: right;
+            margin-right: 14px;
+        }
+        //用于设置价格颜色,不免费的橘黄色
+        .orange {
+            color: #FF7350;
+        }
+    }
+}

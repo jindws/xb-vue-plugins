@@ -1,0 +1,28 @@
+.footer {
+  background: #333333;
+  border: 1px solid #979797;
+  padding: 60px 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer_right {
+  margin-left: 100px;
+}
+
+.footer_left {}
+
+.foooter_p {
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: 30.6px;
+  position: relative;
+}
+
+.footer_left p {
+  margin: 0;
+}

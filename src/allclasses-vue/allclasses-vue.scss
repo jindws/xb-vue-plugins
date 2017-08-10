@@ -1,0 +1,49 @@
+.allclasses {
+    box-sizing: content-box;
+    border-top: 1px solid #eff3f5;
+
+    &:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+    background-color: #F5F6F8;
+    padding: 20px calc(100%/2 - 590px) 70px; // width: 1920px;
+    width: 1180px; // height: 1167px;
+    margin: 0 auto; // display: inline;
+    //中部所有课程的总样式
+    .middle {
+        float: left;
+        height: inherit;
+        display: inline; //单个课程组件的样式
+
+        .start-vue-class {
+            float: left;
+            transition: all 0.25s ease-in;
+        }
+        //单个课程组件鼠标悬停样式
+        .start-vue-class:hover {
+            opacity: 1;
+            box-shadow: 0 5px 10px 10px rgba(0,0,0,.05);
+            transform: translate3d(0,-2px,0);
+            cursor: pointer;
+        }
+    }
+    //第二行开始的课程格子的上方margin
+    .top-margin {
+        margin-top: 19.5px;
+    }
+    //每行第一个课程格子无margin-left
+    .left-margin {
+        margin-left: 19.2px;
+    }
+    //底部分页组件的样式
+    .pagination-class {
+        float: left;
+        display: block;
+        width: 600px;
+        height: 80px;
+        margin-left: 25.23%;
+        margin-top: 3.7%;
+    }
+}
