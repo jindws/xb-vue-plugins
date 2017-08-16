@@ -1,7 +1,7 @@
 {
   "name": "xb-vue-plugins",
-  "version": "0.7.37",
-  "description": "",
+  "version": "0.7.38",
+  "description": "# 不建议使用",
   "main": "index.js",
   "scripts": {
     "start": "webpack --progress",
@@ -37,5 +37,16 @@
     "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.6",
     "vue-template-compiler": "^2.4.2"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moiamoia/xb-vue-plugins.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moiamoia/xb-vue-plugins/issues"
+  },
+  "homepage": "https://github.com/moiamoia/xb-vue-plugins#readme"
 }

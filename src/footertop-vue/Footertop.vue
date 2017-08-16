@@ -3,7 +3,7 @@
   	<p class="ft_topp">校宝学院，培训行业首选学习平台</p>
   	<div class="ft_topd">
   		<div class="ft_top1"><img src='https://cdn.xueyuan.xiaobao100.com/shield/image/plugin-pic/diamond.jpg' width="140px" height="140px" alt=""></div>
-  		<span class="ftd_center">一线名师 精品课程</span>
+  		<span class="ftd_center">行业名师 精品课程</span>
   		<p class="ft_bottom">行业内优秀讲师零距离分享成功案列<br/>精选好课，一网打尽</p>
   	</div>
 
