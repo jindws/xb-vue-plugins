@@ -1,7 +1,7 @@
 {
   "name": "xb-vue-plugins",
-  "version": "0.7.38",
-  "description": "# 不建议使用",
+  "version": "0.7.39",
+  "description": "# 不建议应用到生产",
   "main": "index.js",
   "scripts": {
     "start": "webpack --progress",
