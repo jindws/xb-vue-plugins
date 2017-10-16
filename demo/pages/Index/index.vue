@@ -1,12 +1,12 @@
 <template lang="html">
     <section>
-      <!-- <v-header :on='1'></v-header> -->
+      <v-header :on='1'></v-header>
       <!-- <slider></slider> -->
       <!-- <will-course></will-course> -->
       <!-- <allclasses-vue :index='true'></allclasses-vue> -->
       <!-- <smalltab-vue></smalltab-vue> -->
-      <footertop-vue></footertop-vue>
-      <footer-vue></footer-vue> 
+      <!-- <footertop-vue></footertop-vue> -->
+      <!-- <footer-vue></footer-vue>  -->
       <!-- <all-course></all-course> -->
     </section>
 </template>

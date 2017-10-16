@@ -1,7 +1,7 @@
 <template lang="html">
   <section class='myheader' :class='{nobg:on===1}'>
       <dl>
-        <dt></dt>
+        <dt @click='toindex'></dt>
         <dd :class='{on:on===1}' @click='toindex'>首页</dd>
         <dd :class='{on:on===2}' @click='toall'>全部课程</dd>
       </dl>
